@@ -167,7 +167,7 @@ a {
     display: none !important;
 }
 
-.album-container > .card {
+.card {
     margin-top: 15px;
     height: 42vh;
     width: 15vw;
@@ -175,8 +175,9 @@ a {
     border-radius: 8px;
 }
 
-.album-container > .card > img {
+.card > img {
     width: 90%;
+    height: 66%;
     margin: 12px;
     object-fit: contain;
     border-radius: 5px;
